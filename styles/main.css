@@ -1,0 +1,26 @@
+/* 导航栏样式 */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* 页面内容样式 */
+.content {
+    padding: 20px;
+}
+
+/* 页尾样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
