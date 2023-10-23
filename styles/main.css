@@ -1,3 +1,6 @@
+body{
+    background-color: #f4f4f4;
+}
 /* 导航栏样式 */
 nav {
     width: 100%;
@@ -9,17 +12,17 @@ nav {
 }
 
 .header {
-    background-color: #333;
+    background-color: #fff;
     color: #fff;
     text-align: center;
     padding: 12px 0;
     width: 90%;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 header a {
-    color: #fff;
+    color: #4d4d4d;
     text-decoration: none;
     margin: 0 12px;
 }
@@ -27,6 +30,7 @@ header a {
 /* 页面内容样式 */
 .content {
     padding: 20px;
+    /* background-color: darkgreen; */
 }
 
 /* 页尾样式 */
