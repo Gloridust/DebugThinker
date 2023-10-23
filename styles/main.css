@@ -1,7 +1,7 @@
 body{
     margin:0px; 
     padding:0px;
-    background-color: #f4f4f4;
+    background-color: #f3f3f3;
 }
 
 /* 导航栏样式 */
@@ -20,12 +20,12 @@ nav {
 }
 
 .space{
-    height: 80px;
+    height: 60px;
 }
 
 .header {
-    background-color: #fff;
-    color: #fff;
+    background-color: #f3f3f3;
+    color: #f3f3f3;
     text-align: center;
     padding: 12px 0;
     width: 90%;
@@ -47,10 +47,18 @@ header a {
     /* background-color: darkgreen; */
 }
 
+.w-bg{
+    background-color: #f3f3f3;
+    padding: 20px;
+    /* margin:0px;  */
+}
+
 /* 页尾样式 */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #f3f3f3;
     text-align: center;
     padding: 12px 0;
+    height: 80px;
+    text-align: center;
 }
