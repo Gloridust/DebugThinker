@@ -6,8 +6,11 @@ body {
 }
 
 /* 导航栏样式 */
-header {
+.header {
     /* height: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav {
@@ -27,9 +30,6 @@ nav {
 
 .logo {
     width: 36px;
-    height: auto;
-    float: right;
-    text-align: right;
     /* margin: auto;
     text-align: center; */
     /* padding: 8px; */
