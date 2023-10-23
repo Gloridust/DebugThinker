@@ -16,20 +16,21 @@ nav {
     margin: auto;
     padding: 20px 0;
     z-index: 999;
-    /* position: sticky; */
+    position: sticky;
     position: fixed;
 }
 
 .space {
     height: 60px;
+    width: 100%;
 }
 
 .logo {
     width: 35px;
-    height: 35px;
-    float: left;
-    padding: 20px 0;
-    margin: 0 10px;
+    height: auto;
+    float: right;
+    margin: auto;
+    text-align: center;
 }
 
 .logo img {
@@ -37,6 +38,7 @@ nav {
     max-height: 100%;
     display: block;
     margin: auto;
+    border-radius: 6px;
 }
 
 .menu {
@@ -93,51 +95,46 @@ header a {
 }
 
 .ab {
-	position: relative;
-	display: inline-block;
-	padding: 1.2em 2em;
-	text-decoration: none;
-	text-align: center;
-	cursor: pointer;
-	user-select: none;
-	color: white;
-	
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: linear-gradient(135deg, #0e3edd, #5a955a);
-		border-radius: 4px;
-		transition: box-shadow .5s ease, transform .2s ease; 
-		will-change: transform;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-		transform:
-			translateY(var(--ty, 0))
-			rotateX(var(--rx, 0))
-			rotateY(var(--ry, 0))
-			translateZ(var(--tz, -12px));
-	}
-	
-	&:hover::before {
-		box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
-	}
-	
-	&::after {
-		position: relative;
-		display: inline-block;
-		content: attr(data-title);
-		transition: transform .2s ease; 
-		font-weight: bold;
-		letter-spacing: .01em;
-		will-change: transform;
-		transform:
-			translateY(var(--ty, 0))
-			rotateX(var(--rx, 0))
-			rotateY(var(--ry, 0));
-	}
+    position: relative;
+    display: inline-block;
+    padding: 1.2em 2em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: linear-gradient(135deg, #0e3edd, #5a955a);
+        border-radius: 4px;
+        transition: box-shadow .5s ease, transform .2s ease;
+        will-change: transform;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+        transform:
+            translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+    }
+
+    &:hover::before {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+    }
+
+    &::after {
+        position: relative;
+        display: inline-block;
+        content: attr(data-title);
+        transition: transform .2s ease;
+        font-weight: bold;
+        letter-spacing: .01em;
+        will-change: transform;
+        transform:
+            translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+    }
 }
 
 
