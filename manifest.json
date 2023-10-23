@@ -15,10 +15,10 @@
             "type": "image/png"
         }
     ],
-    "background_color": "#5A95EF", //应用加载之前的背景色，用于应用启动时的过渡
-    "theme_color": "#f3f3f3", //主题颜色，用于控制浏览器地址栏着色
-    "display": "standalone", // 定义应用的显示方式
+    "background_color": "#5A95EF", 
+    "theme_color": "#f3f3f3", 
+    "display": "standalone", 
     "orientation": "portrait",
-    "start_url": "/", // 打开后第一个出现的页面地址
-    "scope": "/" // PWA作用域
+    "start_url": "/", 
+    "scope": "/" 
 }

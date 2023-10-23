@@ -5,7 +5,6 @@ let cacheName = 'DebugThinker-PWA'; // 缓存名字
 var cacheList = [ // 所需缓存的文件
   '/',
   "index.html"
-  "src/img/logo.png"
 ]
 
 self.addEventListener('install', function(e) {
