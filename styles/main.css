@@ -26,11 +26,13 @@ nav {
 }
 
 .logo {
-    width: 35px;
+    width: 36px;
     height: auto;
     float: right;
-    margin: auto;
-    text-align: center;
+    text-align: right;
+    /* margin: auto;
+    text-align: center; */
+    /* padding: 8px; */
 }
 
 .logo img {
@@ -44,6 +46,7 @@ nav {
 .menu {
     padding: 0 20px;
     text-align: left;
+    max-width: 200px;
 }
 
 
@@ -92,6 +95,10 @@ header a {
     background-color: #f3f3f3;
     padding: 20px;
     /* margin:0px;  */
+}
+
+h1 {
+    padding:2px;
 }
 
 .ab {
