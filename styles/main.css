@@ -38,6 +38,11 @@ nav {
     border-radius: 6px;
 }
 
+.logo a {
+    margin: 0;
+    padding: 0;
+}
+
 .menu {
     padding: 0 20px;
     text-align: left;
